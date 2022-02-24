@@ -24,7 +24,7 @@
 }
 
 .catbg4{
-	background-image: url('../img/govtschemes.jpg');
+	background-image: url('../img/gov.jpg');
 }
 
 
@@ -206,8 +206,8 @@
     font-weight: bold;
 }
 
-.footmob ul h3 {
-	padding-left: 140px;
+.footmob {
+	padding-left: 140px !important;
 }
 
 
