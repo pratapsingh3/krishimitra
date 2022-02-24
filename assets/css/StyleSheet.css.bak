@@ -173,6 +173,8 @@
 
 .concover{
 	background-color: #fff;
+	margin-left: 50px;
+	margin-right: 50px;
 }
 .webcol {
 	color: #d19c4b !important;
@@ -197,6 +199,15 @@
 .heading {
 	font-size: 44px;
     font-weight: bold;
+}
+
+.heading1 {
+	font-size: 35px;
+    font-weight: bold;
+}
+
+.footmob ul h3 {
+	padding-left: 140px;
 }
 
 

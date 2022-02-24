@@ -3,13 +3,14 @@
 	<head>
 		<title>Krishi Mitra</title>
 		<link href="assets/css/StyleSheet.css" type="text/css" rel="stylesheet"/>
+		<link href="assets/css/MobileStyleSheet.css" type="text/css" rel="stylesheet"/>
 		<link href="assets/bootstrap-5.1.3-dist/css/bootstrap.css" type="text/css" rel="stylesheet"/>
 		<link href="assets/fontawesome-free-6.0.0-web/css/all.css" type="text/css" rel="stylesheet">
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 		
 	</head>
 	<body>
-		<header>
+		<header class="sticky-top">
 			<nav class="navbar navbar-expand-lg navbar-light bg-light">
 				<div class="container-fluid">
 					<a class="navbar-brand" href="#" >
@@ -24,16 +25,16 @@
 							  <a class="nav-link active" aria-current="page" href="#"><h4 class="webcol">Home</h4></a>
 							</li>
 							<li class="nav-item">
-							  <a class="nav-link" href="#"><h4 class="webcol">Category</h4></a>
+							  <a class="nav-link" href="#category"><h4 class="webcol">Category</h4></a>
 							</li>
 							<li class="nav-item">
-							  <a class="nav-link" href="#"><h4 class="webcol">About US</h4></a>
+							  <a class="nav-link" href="#about"><h4 class="webcol">About US</h4></a>
 							</li>
 							<li class="nav-item">
-							  <a class="nav-link" href="#"><h4 class="webcol">New Feeds</h4></a>
+							  <a class="nav-link" href="#new"><h4 class="webcol">New Feeds</h4></a>
 							</li>
 							<li class="nav-item">
-							  <a class="nav-link" href="#"><h4 class="webcol">Contact</h4></a>
+							  <a class="nav-link" href="#contact"><h4 class="webcol">Contact</h4></a>
 							</li>
 						</ul>
 						<form class="d-flex">
@@ -84,45 +85,47 @@
 			</div>
 			
 			<!-- Category -->
-			<div class="container">
-				<h2 class="webcol1 pt-5 my-5">
-					<center class="heading">CATEGORY</center>
-				<h2>
-				<div class="row">
-					<div class="col-xl-4">
-						<div class="cat catbg2 mr-5">
-							<h1>Irrigation</h1>
+			<section id="category">
+				<div class="container">
+					<h2 class="webcol1 pt-5 my-5">
+						<center class="heading">CATEGORY</center>
+					<h2>
+					<div class="row">
+						<div class="col-xl-4 catmob">
+							<div class="cat catbg2">
+								<h1>Irrigation</h1>
+							</div>
+						</div>
+						<div class="col-xl-4 catmob">
+							<div class="cat catbg1">
+								<h1>Crops</h1>
+							</div>
+						</div>
+						<div class="col-xl-4">
+							<div class="cat catbg4">
+								<h1>Government Scheme</h1>
+							</div>
 						</div>
 					</div>
-					<div class="col-xl-4">
-						<div class="cat catbg1 mx-5">
-							<h1>Crops</h1>
+					
+					<div class="row">
+						<div class="col-xl-6">
+							<div class="cat cat1 catbg3">
+								<h1>Pesticides & Fertilizers</h1>
+							</div>
 						</div>
-					</div>
-					<div class="col-xl-4">
-						<div class="cat catbg4 ml-5">
-							<h1>Government Scheme</h1>
+						<div class="col-xl-6">
+							<div class="cat cat2 catbg1">
+								<h1>Tools & Equipments</h1>
+							</div>
 						</div>
 					</div>
 				</div>
-				
-				<div class="row">
-					<div class="col-xl-6">
-						<div class="cat cat1 catbg3 mr-5">
-							<h1>Pesticides & Fertilizers</h1>
-						</div>
-					</div>
-					<div class="col-xl-6">
-						<div class="cat cat2 catbg1 mr-5">
-							<h1>Tools & Equipments</h1>
-						</div>
-					</div>
-				</div>
-			</div>
+			</section>
 			
 			<!-- About Us -->
 			
-			<div>
+			<section id="about">
 				<div class="wrapper">
 					
 				  <div class="fixed-bg bg-1">
@@ -136,17 +139,17 @@
 				  </div>
 	 
 				</div>
-			</div>
+			</section>
 			
 			<!-- New Feeds -->
 			
-			<div>
+			<section id="new">
 				<div class="container">
 				
 					<h2 class="text-center pt-5 pb-3 heading webcol1">NEW FEEDS<h2>
 					<div class="row pb-5">
-						<div class="col-xl-4 ">
-							<div class="card feedborder" style="width: 18rem;">
+						<div class="col-xl-4">
+							<div class="card feedborder cardmob" style="width: 18rem;">
 							  <img src="assets/img/p3feed.png" class="card-img-top w-100" alt="...">
 							  <div class="card-body">
 								<h3 class="card-title pb-3">Centre looks to partner with agriculture startups</h3>
@@ -156,7 +159,7 @@
 							</div>
 						</div>
 						<div class="col-xl-4">
-							<div class="card feedborder" style="width: 18rem;">
+							<div class="card feedborder cardmob" style="width: 18rem;">
 							  <img src="assets/img/p1feed.png" class="card-img-top w-100" alt="...">
 							  <div class="card-body">
 								<h3 class="card-title pb-3">Interview | 'India Needs Healthy Agriculture, Environment and Wealthy Farmers'</h3>
@@ -166,7 +169,7 @@
 							</div>
 						</div>
 						<div class="col-xl-4">
-							<div class="card feedborder" style="width: 18rem;">
+							<div class="card feedborder cardmob" style="width: 18rem;">
 							  <img src="assets/img/p2feed.png" class="card-img-top w-100" alt="...">
 							  <div class="card-body">
 								<h3 class="card-title pb-3">PM Fasal Beema Yojana to launch a doorstep distribution drive</h3>
@@ -177,39 +180,39 @@
 						</div>
 					</div>
 				</div>
-			</div>
+			</section>
 			
 			<!-- Contact US -->
-			
-			<div class="contban">
-				<div class="container py-5">
-					<div class="row py-5">
-						<div class="col-xl-5 concover mx-5">
-							<form class="py-5 px-3">
-							  <div class="mb-3">
-								<label for="contactno" class="form-label webcol1"><b>Contact Number</b></label>
-								<input type="number" class="form-control" id="contactno" aria-describedby="contactHelp">
-								<div id="contactHelp" class="form-text webcol2">We'll never share your Contact Number with our team.</div>
-							  </div>
-							  <div class="mb-3">
-								<label for="message" class="form-label webcol1"><b>Issue</b></label>
-								<textarea name="comment" class="form-control" form="usrform"></textarea>
-							  </div>
-							  <button type="submit" class="btn btn-primary">Submit</button>
-							</form>
-						</div>
-						<div class="col-xl-5 concover mx-5 py-5 px-3 webcol2">
-							<h3 class="pb-4 heading1 webcol1">Contact Information</h3>
-							<label><i class="fa-solid fa-mobile-screen-button"></i> +91 9549002095</label><br>
-							<label><i class="fa-solid fa-fax"></i> +91 9549002095</label><br>
-							<label><i class="fa-solid fa-envelope"></i> nanusinghrathore@gmail.com</label><br>
-							<label><i class="fa-brands fa-instagram"></i> pratap_singh3</label><br>
-							<label></label>
+			<section id="contact">
+				<div class="contban">
+					<div class="container py-5">
+						<div class="row py-5">
+							<div class="col-xl-5 concover">
+								<form class="py-5 px-3">
+								  <div class="mb-3">
+									<label for="contactno" class="form-label webcol1"><b>Contact Number</b></label>
+									<input type="number" class="form-control" id="contactno" aria-describedby="contactHelp">
+									<div id="contactHelp" class="form-text webcol2">We'll never share your Contact Number with our team.</div>
+								  </div>
+								  <div class="mb-3">
+									<label for="message" class="form-label webcol1"><b>Issue</b></label>
+									<textarea name="comment" class="form-control" form="usrform"></textarea>
+								  </div>
+								  <button type="submit" class="btn btn-primary">Submit</button>
+								</form>
+							</div>
+							<div class="col-xl-5 concover py-5 px-3 webcol2">
+								<h3 class="pb-4 heading1 webcol1">Contact Information</h3>
+								<label><i class="fa-solid fa-mobile-screen-button"></i> +91 9549002095</label><br>
+								<label><i class="fa-solid fa-fax"></i> +91 9549002095</label><br>
+								<label><i class="fa-solid fa-envelope"></i> nanusinghrathore@gmail.com</label><br>
+								<label><i class="fa-brands fa-instagram"></i> pratap_singh3</label><br>
+								<label></label>
+							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			
+			</section>	
 		</main>
 		
 		<footer>
@@ -228,7 +231,7 @@
 				<div class="container">
 					<div class="row text-white">
 						
-							<div class="col-xl-3 m-5">
+							<div class="col-xl-4 footmob">
 								<h3>Partnership</h3>
 								<ul class="list-inline">
 									<li><a href="" class="text-decoration-none text-white">Website</a></li>
@@ -236,14 +239,14 @@
 									<li><a href="" class="text-decoration-none text-white">Branding</a></li>
 								</ul>
 							</div>
-							<div class="col-xl-3 m-5">
+							<div class="col-xl-4 footmob">
 								<h3>About</h3>
 								<ul class="list-inline">
 									<li><a href="" class="text-decoration-none text-white">Our Project</a></li>
 									<li><a href="" class="text-decoration-none text-white">Privacy Policy</a></li>
 								</ul>
 							</div>
-							<div class="col-xl-3 m-5">
+							<div class="col-xl-4 footmob">
 								<h3>Support</h3>
 								<ul class="list-inline">
 									<li><a href="" class="text-decoration-none text-white">Support Request</a></li>
@@ -254,6 +257,8 @@
 					</div>
 				</div>
 			</div>
+			
+			<!-- Copyrights -->
 			<div class="bg-dark text-white pt-3 pb-1">
 				<div class="container">
 					<div class="t4Left">

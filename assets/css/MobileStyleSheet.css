@@ -1,0 +1,36 @@
+@media only screen and (max-width: 1200px) {
+	.cat{
+		width: 100%;
+		text-align: center;
+	}
+	
+	.cat1 {
+		margin-left: 3px;
+	}
+	
+	.cat2 {
+		margin-left: 3px;
+	}
+	
+	.cardmob {
+		width: 100% !important;
+		margin-bottom: 20px;
+	}
+	
+	.concover {
+		margin-bottom: 20px;
+	}
+	
+	.feedborder {
+		margin-left: 0px;
+	}
+	
+	.concover{
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+	
+	.footmob {
+		padding-left: 0px !important;
+	}
+}
